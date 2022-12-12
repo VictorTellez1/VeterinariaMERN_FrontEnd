@@ -1,6 +1,5 @@
 import {useState,useEffect,createContext} from 'react'
 import clientesAxios from '../../config/axios'
-import Alerta from '../components/alerta'
 const AuthContext=createContext()
 
 const AuthProvider=({children})=>{
